@@ -21,6 +21,8 @@ Here you can find the [Storybook](https://codingnomad-com.github.io/mui-componen
 
 Here you can find the automatically generated [CHANGELOG.md](CHANGELOG.md).
 
+<!-- https://github.com/conventional-changelog/standard-version#customizing-changelog-generation -->
+
 ## Development
 
 ### Important
