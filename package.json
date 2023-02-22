@@ -22,7 +22,7 @@
     "build": "yarn build:es && yarn compile:ts",
     "build:es": "esbuild src/index.ts --loader:.svg=file --loader:.png=file --bundle --outfile=dist/bundle.js",
     "compile:ts": "tsc --build --pretty -v && tsc-alias -p tsconfig.json",
-    "prepublishOnly": "rm -rf dist && mkdir dist && yarn run lint && yarn run build && yarn release && yarn release:tags && doc:deploy",
+    "prepublishOnly": "rm -rf dist && mkdir dist && yarn run lint && yarn run build && yarn release && yarn release:tags && yarn doc:deploy",
     "doc:dev": "start-storybook -p 6006 ",
     "doc:build": "build-storybook --output-dir docs ",
     "doc:deploy": "npm run doc:build && gh-pages -d docs",
