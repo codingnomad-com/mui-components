@@ -15,7 +15,7 @@
 
 ## Documentation
 
-Here you can find the [CHANGELOG.md](docs).
+Here you can find the [https://codingnomad-com.github.io/mui-components/](Storybook) with all components.
 
 ## Changelog
 
