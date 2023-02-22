@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/codingnomad-com/mui-components/compare/v0.0.1...v0.0.2) (2023-02-22)
+
+
+### Features
+
+* **storybook:** finished Storybook configuration ([b393a87](https://github.com/codingnomad-com/mui-components/commit/b393a870fdce40994bbd47c8e23e9a80efa6448d))
+
 ### 0.0.1 (2023-02-22)
 
 
