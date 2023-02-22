@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.1 (2023-02-22)
+
+
+### Features
+
+* initial commit ([5924d91](https://github.com/codingnomad-com/mui-components/commit/5924d911d8e2fe100983119cb3a4f75583dac508))
+
 ### [0.0.1](https://github.com/codingnomad-com/mui-components/compare/v0.0.2...v0.0.1) (2023-02-22)
 
 
