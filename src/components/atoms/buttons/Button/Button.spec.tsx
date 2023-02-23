@@ -1,6 +1,5 @@
 // @ts-check
 
-// import { test, expect } from '@playwright/test';
 import { expect, test } from '@playwright/experimental-ct-react';
 import React from 'react';
 import Button from './Button';

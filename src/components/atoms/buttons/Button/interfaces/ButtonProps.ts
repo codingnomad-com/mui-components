@@ -7,7 +7,7 @@ type ButtonBaseProps = Pick<
 >;
 
 // Use all except disableRipple
-// type ButtonBaseProps = Omit<MuiButtonProps, "disableRipple">;
+// type ButtonBaseProps = Omit<MuiButtonProps, 'disableRipple'>;
 
 export interface ButtonProps extends ButtonBaseProps {
   label: string;
