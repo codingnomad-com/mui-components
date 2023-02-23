@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/codingnomad-com/mui-components/compare/v0.0.7...v0.0.8) (2023-02-23)
+
+
+### Features
+
+* **testing:** added first component test and updated Playwright setup ([caec648](https://github.com/codingnomad-com/mui-components/commit/caec6484932758139e4e9a812d4b1f943ee42a24))
+
+
+### Bug Fixes
+
+* **testing:** fixed Playwright setup ([23debce](https://github.com/codingnomad-com/mui-components/commit/23debce15f83b99df58a5aa2ae642cbaa701fa83))
+
 ### [0.0.7](https://github.com/codingnomad-com/mui-components/compare/v0.0.6...v0.0.7) (2023-02-23)
 
 
