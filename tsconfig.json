@@ -17,7 +17,10 @@
     "noUnusedParameters": true,
     "outDir": "dist",
     "paths": {
-      "@/*": ["src/*"]
+      "~/atoms/*": ["src/components/atoms/*"],
+      "~/interfaces": ["src/interfaces"],
+      "~/themes/*": ["src/themes/*"],
+      "~/types/*": ["src/types/*"]
     },
     "resolveJsonModule": true,
     "skipLibCheck": true,
@@ -27,5 +30,5 @@
     "target": "es6"
   },
   "exclude": ["node_modules", "dist", "rollup.config.js", "**/*.stories.*"],
-  "include": ["src/**/*"]
+  "include": ["src/**/*", ".storybook"]
 }
