@@ -28,9 +28,9 @@
     "sourceMap": true,
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
-    "target": "es6"
+    "target": "esnext"
+    // "module": "commonjs"
   },
-  "type": "module",
   "exclude": ["node_modules", "dist", "**/*.stories.*"],
   "include": ["src/**/*", ".storybook"]
 }
