@@ -5,7 +5,7 @@
     "baseUrl": ".",
     "declaration": true,
     "declarationDir": "./dist",
-    "emitDeclarationOnly": true,
+    // "emitDeclarationOnly": true,
     "forceConsistentCasingInFileNames": true,
     "jsx": "react",
     "lib": ["es6", "dom", "es2016", "es2017"],
