@@ -30,6 +30,7 @@
     "suppressImplicitAnyIndexErrors": true,
     "target": "es6"
   },
+  "type": "module",
   "exclude": ["node_modules", "dist", "rollup.config.js", "**/*.stories.*"],
   "include": ["src/**/*", ".storybook"]
 }
