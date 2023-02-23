@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.14](https://github.com/codingnomad-com/mui-components/compare/v0.0.16...v0.0.14) (2023-02-23)
+
+
+### Bug Fixes
+
+* **build:** fixed broken publish ([808bbba](https://github.com/codingnomad-com/mui-components/commit/808bbba2ec1b67146f3bcd3770ec53663d89c46e))
+
 ### [0.0.16](https://github.com/codingnomad-com/mui-components/compare/v0.0.14...v0.0.16) (2023-02-23)
 
 ### [0.0.14](https://github.com/codingnomad-com/mui-components/compare/v0.0.13...v0.0.14) (2023-02-23)
