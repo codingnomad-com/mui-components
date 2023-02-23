@@ -1,9 +1,9 @@
 import MuiButton from '@mui/material/Button';
 import * as React from 'react';
-import { FC, ReactElement } from 'react';
+import { FC } from 'react';
 import { ButtonProps } from '~/interfaces';
 
-const Button: FC<ButtonProps> = (props): ReactElement => {
+const Button: FC<ButtonProps> = (props) => {
   const {
     color = 'primary',
     label,
