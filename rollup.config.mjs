@@ -9,18 +9,24 @@ import pkg from './package.json' assert { type: 'json' };
 export default {
   input: 'src/index.tsx',
   output: [
-    {
-      file: pkg.main,
-      format: 'cjs',
-      exports: 'named',
-      sourcemap: true,
-    },
+    // {
+    //   file: pkg.main,
+    //   format: 'cjs',
+    //   exports: 'named',
+    //   sourcemap: true,
+    // },
     {
       file: pkg.module,
-      format: 'es',
+      format: 'esm',
       exports: 'named',
       sourcemap: true,
     },
+    // {
+    //   format: 'esm',
+    //   sourcemap: true,
+    //   file: pkg.module,
+    //   plugins: [flatDts()],
+    // },
   ],
   plugins: [
     external(),
