@@ -10,10 +10,10 @@ build({
   outfile: 'dist/index.js',
 });
 
-build({
-  ...shared,
-  outfile: 'dist/index.esm.js',
-  format: 'esm',
-});
+// build({
+//   ...shared,
+//   outfile: 'dist/index.esm.js',
+//   format: 'esm',
+// });
 
 //     "build:es": "esbuild src/index.ts --loader:.svg=file --loader:.png=file --bundle --outfile=dist/bundle.js",
