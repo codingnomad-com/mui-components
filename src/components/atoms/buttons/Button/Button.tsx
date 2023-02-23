@@ -9,11 +9,17 @@ const Button: FC<ButtonProps> = (props): ReactElement => {
     label,
     size = 'medium',
     variant = 'contained',
+    onClick,
   } = props;
 
   return (
     <div>
-      <MuiButton color={color} size={size} variant={variant}>
+      <MuiButton
+        color={color}
+        size={size}
+        variant={variant}
+        onClick={onClick ? (event) => onClick(event) : undefined}
+      >
         {label}
       </MuiButton>
     </div>
