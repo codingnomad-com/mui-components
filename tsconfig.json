@@ -31,6 +31,6 @@
     "target": "es6"
   },
   "type": "module",
-  "exclude": ["node_modules", "dist", "rollup.config.js", "**/*.stories.*"],
+  "exclude": ["node_modules", "dist", "**/*.stories.*"],
   "include": ["src/**/*", ".storybook"]
 }
