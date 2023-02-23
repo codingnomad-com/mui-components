@@ -20,6 +20,7 @@
     "test:show-report": "npx playwright show-report",
     "test:codegen": "playwright codegen",
     "commit": "git-cz",
+    "publish": "npm publish",
     "release": "standard-version",
     "release:tags": "git push --follow-tags origin main",
     "build": "yarn build:es && yarn compile:ts",
