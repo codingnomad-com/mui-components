@@ -1,6 +1,6 @@
 {
   "name": "@codingnomad/mui-components",
-  "version": "0.0.42",
+  "version": "0.0.41",
   "description": "Material UI based component library",
   "repository": "github:codingnomad-com/mui-components",
   "author": "Manuel Bachl | Coding Nomad <manuel@coding-nomad.com> (https://coding-nomad.com)",
@@ -24,7 +24,7 @@
     "release": "standard-version",
     "release:tags": "git push --follow-tags origin main",
     "build": "rimraf dist && node esbuild.config.mjs && tsc --outDir dist",
-    "prepublishOnly": "yarn lint && yarn tsc && yarn build && yarn release && yarn release:tags && yarn doc:deploy",
+    "prepublishOnly": "yarn lint && yarn tsc && yarn test-ct && yarn build && yarn release && yarn release:tags && yarn doc:deploy",
     "doc:dev": "start-storybook -p 6006 ",
     "doc:build": "build-storybook --output-dir docs ",
     "doc:deploy": "npm run doc:build && gh-pages -d docs",
