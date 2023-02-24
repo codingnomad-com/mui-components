@@ -196,3 +196,5 @@ const formatDays = (days: OpeningHours[]): FormattedGroup[] => {
 export const getDaysWithHoursFormatted = (
   data: OpeningHours[],
 ): FormattedResult[] => groupDays(formatDays(data));
+
+export default getDaysWithHoursFormatted;

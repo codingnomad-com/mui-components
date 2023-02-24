@@ -10,3 +10,5 @@ export const getPhoneNumberFormatted = (
   phoneNumber: PhoneNumber,
 ): string => `${getDialCode(phoneNumber.countryCode)} ${phoneNumber.areaCode}
 ${phoneNumber.number}`;
+
+export default getPhoneNumberFormatted;

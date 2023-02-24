@@ -3,7 +3,7 @@ import * as React from 'react';
 import { FC } from 'react';
 import { ButtonProps } from '~/interfaces';
 
-export const Button: FC<ButtonProps> = (props) => {
+const Button: FC<ButtonProps> = (props) => {
   const {
     color = 'primary',
     label,
@@ -25,3 +25,5 @@ export const Button: FC<ButtonProps> = (props) => {
     </div>
   );
 };
+
+export default Button;

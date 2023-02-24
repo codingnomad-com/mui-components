@@ -1,7 +1,7 @@
 import { blueGrey, cyan, pink } from '@mui/material/colors';
 import { createTheme } from '@mui/material/styles';
 
-export const dark = createTheme({
+const dark = createTheme({
   palette: {
     mode: 'dark',
     primary: {
@@ -16,3 +16,5 @@ export const dark = createTheme({
     },
   },
 });
+
+export default dark;

@@ -1,7 +1,7 @@
 import { cyan, pink } from '@mui/material/colors';
 import { createTheme } from '@mui/material/styles';
 
-export const light = createTheme({
+const light = createTheme({
   palette: {
     mode: 'light',
     primary: {
@@ -12,3 +12,5 @@ export const light = createTheme({
     },
   },
 });
+
+export default light;
