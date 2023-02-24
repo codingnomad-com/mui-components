@@ -1209,10 +1209,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@codingnomad/eslint-config-cn@^0.1.9":
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/@codingnomad/eslint-config-cn/-/eslint-config-cn-0.1.9.tgz#db915abd00fda5c05ab82165675b139180b358dd"
-  integrity sha512-vWnaRqyJJzQmxnIam7lj5NEChZD/I60u9fQ76FyTyoCUbg2u6B3lR0OSoWLeqzAb4pEc/LgUOYOmCpi89a+YVA==
+"@codingnomad/eslint-config-cn@^0.1.10":
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/@codingnomad/eslint-config-cn/-/eslint-config-cn-0.1.10.tgz#61b79c899cba2babfb9a1c7fb422be328fdda739"
+  integrity sha512-xiCFmc4X/3ycRohqJzIriq7W7X3na8JbVwK2khUAs1grO530+JXso5psXto3erSUq73NBvZ2cHLVc4NR0+yMMA==
   dependencies:
     eslint "^8.30.0"
     eslint-config-airbnb "^19.0.4"
@@ -1231,10 +1231,10 @@
     jest "^29.3.1"
     prettier "^2.8.1"
 
-"@codingnomad/ts-utilities@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@codingnomad/ts-utilities/-/ts-utilities-0.0.4.tgz#f81084e865dc1a7c23eff32a581b2a0e942f4b09"
-  integrity sha512-6dMcyeGyfe4bUhYgDCsbSa+ScJij7Pt1rx0i3ocPZX25xPkmAm8pA/bNV/Tj+cFHelXEUvEiKo293BOVH/9b6g==
+"@codingnomad/ts-utilities@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@codingnomad/ts-utilities/-/ts-utilities-0.0.6.tgz#e26bdd97052f443d664ee1cb787dbb3d01cff499"
+  integrity sha512-MQgMJJY67m6lxIRcOM+8FQcVGwaBRVuH/ckiaEI3USYjhTRPU5mduCh+wAqWhUu5w9fphdXpQjRLmM2nL+JI1A==
   dependencies:
     "@types/node" "^18.14.0"
     "@types/react" "^18.0.28"

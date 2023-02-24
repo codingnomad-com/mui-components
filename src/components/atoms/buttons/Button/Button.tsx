@@ -25,3 +25,5 @@ export const Button: FC<ButtonProps> = (props) => {
     </div>
   );
 };
+
+export default Button;
