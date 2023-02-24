@@ -13,8 +13,4 @@ module.exports = {
       },
     },
   },
-  rules: {
-    'import/no-default-export': 0,
-    'import/prefer-default-export': 1,
-  },
 };

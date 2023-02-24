@@ -8,4 +8,4 @@
 // ------------------------------------------------------------------------------------------------------------------ //
 
 // buttons
-export { default as Button } from './components/atoms/buttons/Button/Button';
+export * from './components/atoms/buttons/Button/Button';

@@ -18,16 +18,16 @@ buildSync({
   outfile: 'dist/index.js',
 });
 
-// buildSync({
-//   ...shared,
-//   entryPoints: ['src/index.ts'],
-//   format: 'cjs',
-//   outfile: 'dist/index.cjs.js',
-// });
+buildSync({
+  ...shared,
+  entryPoints: ['src/index.ts'],
+  format: 'cjs',
+  outfile: 'dist/index.cjs.js',
+});
 
-// buildSync({
-//   ...shared,
-//   entryPoints: ['src/index.ts'],
-//   format: 'esm',
-//   outfile: 'dist/index.esm.js',
-// });
+buildSync({
+  ...shared,
+  entryPoints: ['src/index.ts'],
+  format: 'esm',
+  outfile: 'dist/index.esm.js',
+});
