@@ -30,6 +30,6 @@
     "target": "esnext",
     "module": "commonjs"
   },
-  "exclude": ["node_modules", "dist", "**/*.stories.*"],
+  "exclude": ["node_modules", "dist", "**/*.stories.*", "**/*.spec.*"],
   "include": ["src/**/*", ".storybook"]
 }
