@@ -3,7 +3,7 @@ import { useMemo } from 'react';
 
 import CssBaseline from '@mui/material/CssBaseline';
 import React from 'react';
-import themes from '../../src/themes';
+import { themes } from '../../src/themes';
 
 export const withMuiTheme = (Story, context) => {
   const { theme: themeKey } = context.globals;
