@@ -1,2 +1,1 @@
-*.stories.*
-__tests__/**/*
+.eslintrc.js

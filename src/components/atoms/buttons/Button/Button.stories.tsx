@@ -13,7 +13,7 @@ export default {
 const ButtonTemplate: Story<ButtonProps> = (
   args: ButtonProps,
 ): ReactElement => {
-  return <ButtonComponent {...args}></ButtonComponent>;
+  return <ButtonComponent {...args} />;
 };
 
 export const Button = ButtonTemplate.bind({});

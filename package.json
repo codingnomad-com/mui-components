@@ -24,7 +24,7 @@
     "release": "standard-version",
     "release:tags": "git push --follow-tags origin main",
     "build:old": "node .esbuild.mjs && yarn compile:ts",
-    "build": "npm run clean && node esbuild.config.mjs && tsc --emitDeclarationOnly --outDir dist",
+    "build": "npm run clean && node esbuild.config.mjs && tsc --outDir dist",
     "clean": "rimraf dist",
     "build:es": "node .esbuild.mjs",
     "compile:ts": "tsc --build --pretty -v && tsc-alias -p tsconfig.json",
