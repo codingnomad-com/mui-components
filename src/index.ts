@@ -8,4 +8,4 @@
 // ------------------------------------------------------------------------------------------------------------------ //
 
 // buttons
-export * from '~/atoms/buttons/Button/Button';
+export { Button } from '~/atoms/buttons/Button/Button';

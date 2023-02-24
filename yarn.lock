@@ -1209,10 +1209,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@codingnomad/eslint-config-cn@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@codingnomad/eslint-config-cn/-/eslint-config-cn-0.1.8.tgz#1b23da7f9641375e3c66edb2bd309191c4100e75"
-  integrity sha512-vQubbihUa3eQ7ScW2bBiPepgsJuVKMeWq8mL+sGkGW9LIifGgssZYtcU51hAumvPOMBXjVkaF0bT5UZC/h92Ww==
+"@codingnomad/eslint-config-cn@^0.1.9":
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/@codingnomad/eslint-config-cn/-/eslint-config-cn-0.1.9.tgz#db915abd00fda5c05ab82165675b139180b358dd"
+  integrity sha512-vWnaRqyJJzQmxnIam7lj5NEChZD/I60u9fQ76FyTyoCUbg2u6B3lR0OSoWLeqzAb4pEc/LgUOYOmCpi89a+YVA==
   dependencies:
     eslint "^8.30.0"
     eslint-config-airbnb "^19.0.4"
