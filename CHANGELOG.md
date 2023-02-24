@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.30](https://github.com/codingnomad-com/mui-components/compare/v0.0.29...v0.0.30) (2023-02-24)
+
+
+### Bug Fixes
+
+* fixed cjs error ([eac55bd](https://github.com/codingnomad-com/mui-components/commit/eac55bdb046fb33b6ebf8bb7868aadf27a5c930c))
+
 ### [0.0.29](https://github.com/codingnomad-com/mui-components/compare/v0.0.28...v0.0.29) (2023-02-23)
 
 ### [0.0.28](https://github.com/codingnomad-com/mui-components/compare/v0.0.27...v0.0.28) (2023-02-23)
