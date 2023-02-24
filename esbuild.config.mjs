@@ -15,8 +15,7 @@ const shared = {
 buildSync({
   ...shared,
   entryPoints: ['src/index.ts'],
-  format: 'cjs',
-  outfile: 'dist/index.cjs.js',
+  outfile: 'dist/index.js',
 });
 
 buildSync({
