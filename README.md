@@ -1,10 +1,10 @@
-# @codingnomad/components
+# @codingnomad/mui-components
 
 > Material UI based component library
 
 <!-- TOC -->
 
-- [@codingnomad/components](#codingnomadcomponents)
+- [@codingnomad/mui-components](#codingnomadmui-components)
   - [Documentation](#documentation)
   - [Changelog](#changelog)
   - [Development](#development)
