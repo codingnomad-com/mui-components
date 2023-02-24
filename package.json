@@ -20,11 +20,12 @@
     "test-ct:debug": "yarn test-ct --debug",
     "test:show-report": "npx playwright show-report",
     "test:codegen": "playwright codegen",
-    "commit": "git-cz",
+    "preflight": "yarn lint && yarn tsc && yarn test-ct",
+    "commit": "yarn preflight && git-cz",
     "release": "standard-version",
     "release:tags": "git push --follow-tags origin main",
     "build": "rimraf dist && node esbuild.config.mjs && tsc --outDir dist",
-    "prepublishOnly": "yarn lint && yarn tsc && yarn test-ct && yarn build && yarn release && yarn release:tags && yarn doc:deploy",
+    "prepublishOnly": "yarn preflight && yarn build && yarn release && yarn release:tags && yarn doc:deploy",
     "doc:dev": "start-storybook -p 6006 ",
     "doc:build": "build-storybook --output-dir docs ",
     "doc:deploy": "npm run doc:build && gh-pages -d docs",
@@ -41,7 +42,7 @@
   },
   "devDependencies": {
     "@codingnomad/eslint-config-cn": "^0.1.10",
-    "@codingnomad/ts-utilities": "^0.0.6",
+    "@codingnomad/ts-utilities": "^0.0.11",
     "@playwright/experimental-ct-react": "^1.31.1",
     "@playwright/test": "^1.31.0",
     "@storybook/addon-actions": "^6.5.16",
@@ -89,6 +90,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "Unlicense",
   "engines": {
     "node": ">=8.0.0"
@@ -98,14 +102,6 @@
       "path": "cz-conventional-changelog"
     }
   },
-  "lint-staged": {
-    "{src,docs}/**/*.{js,json,css,jsx,ts,tsx} *.js": [
-      "pretty-quick --staged",
-      "npm run stylelint",
-      "eslint --fix --quiet --ignore-path .gitignore",
-      "git add"
-    ]
-  },
   "keywords": [
     "Material UI",
     "react",
@@ -113,8 +109,5 @@
     "components",
     "component library",
     "library"
-  ],
-  "publishConfig": {
-    "access": "public"
-  }
+  ]
 }

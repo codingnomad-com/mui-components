@@ -1231,10 +1231,10 @@
     jest "^29.3.1"
     prettier "^2.8.1"
 
-"@codingnomad/ts-utilities@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@codingnomad/ts-utilities/-/ts-utilities-0.0.6.tgz#e26bdd97052f443d664ee1cb787dbb3d01cff499"
-  integrity sha512-MQgMJJY67m6lxIRcOM+8FQcVGwaBRVuH/ckiaEI3USYjhTRPU5mduCh+wAqWhUu5w9fphdXpQjRLmM2nL+JI1A==
+"@codingnomad/ts-utilities@^0.0.11":
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/@codingnomad/ts-utilities/-/ts-utilities-0.0.11.tgz#6aeec83cc4ed77eb31fd2c69f441af734c25b707"
+  integrity sha512-lpw/OgjYaWmoSp/F6TnD/NVlzjI3V8jpF2hO4SNR2vpnQaZv//34QBWo2TV9kboYT+Rzxaj7kG281mGSINg09A==
   dependencies:
     "@types/node" "^18.14.0"
     "@types/react" "^18.0.28"

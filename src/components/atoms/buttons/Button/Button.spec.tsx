@@ -9,8 +9,6 @@ test(`has label "${buttonLabel}"`, async ({ mount }) => {
   // Mount a component. Returns locator pointing to the component.
   const component = await mount(<Button label={buttonLabel} />);
 
-  console.log(component);
-
   // As with any Playwright test, assert locator text.
   await expect(component).toContainText(buttonLabel);
 });
