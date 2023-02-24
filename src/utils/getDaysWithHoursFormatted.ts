@@ -134,6 +134,7 @@ const formatDayName = (dayName = 'monday'): string =>
   `${DAY_NAME_MAP[dayName] || ''}`;
 
 export type FormattedResult = { left: string; right: string };
+
 const groupDays = (daysArr: FormattedGroup[]): FormattedResult[] => {
   const result = [];
 
