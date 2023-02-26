@@ -12,11 +12,8 @@
   "scripts": {
     "start": "yarn doc:dev",
     "lint": "eslint src/**/*.{ts,tsx} --fix",
-    "test": "playwright test",
     "test-ct": "playwright test -c playwright-ct.config.ts",
-    "test:chromium": "yarn test --project=chromium",
     "test-ct:chromium": "yarn test-ct --project=chromium",
-    "test:debug": "yarn test --debug",
     "test-ct:debug": "yarn test-ct --debug",
     "test:show-report": "npx playwright show-report",
     "test:codegen": "playwright codegen",
@@ -29,7 +26,7 @@
     "prepublishOnly": "yarn preflight && yarn build && yarn release && yarn release:tags && yarn doc:deploy",
     "doc:dev": "start-storybook -p 6006 ",
     "doc:build": "build-storybook --output-dir docs ",
-    "doc:deploy": "npm run doc:build && gh-pages -d docs",
+    "doc:deploy": "yarn doc:build && gh-pages -d docs",
     "update:storybook": "npx sb@latest upgrade"
   },
   "dependencies": {
