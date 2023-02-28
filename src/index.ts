@@ -6,5 +6,7 @@
 // atoms ------------------------------------------------------------------------------------------------------------ //
 // ------------------------------------------------------------------------------------------------------------------ //
 
-// buttons
-export * from './components/atoms/buttons/Button/Button';
+// button
+export * from './components/atoms/button/Button/Button';
+// themes
+export * from './themes';

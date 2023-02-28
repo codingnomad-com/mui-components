@@ -7,4 +7,4 @@
 // ------------------------------------------------------------------------------------------------------------------ //
 
 // buttons
-export * from './components/atoms/buttons/Button/interfaces/ButtonProps';
+export * from './components/atoms/button/Button/interfaces/ButtonProps';
