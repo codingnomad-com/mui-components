@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.47](https://github.com/codingnomad-com/mui-components/compare/v0.0.46...v0.0.47) (2023-02-28)
+
+
+### Features
+
+* **themes:** exported themes ([4444130](https://github.com/codingnomad-com/mui-components/commit/44441302be28fb4fc96f23294cc91749198939e5))
+
+
+### Bug Fixes
+
+* fix broken import ([c360b01](https://github.com/codingnomad-com/mui-components/commit/c360b01ca990d3cb98b4bc474cb409a8ac2f0814))
+
 ### [0.0.46](https://github.com/codingnomad-com/mui-components/compare/v0.0.45...v0.0.46) (2023-02-26)
 
 ### [0.0.45](https://github.com/codingnomad-com/mui-components/compare/v0.0.44...v0.0.45) (2023-02-24)
