@@ -18,6 +18,8 @@
     "paths": {
       "~/atoms/*": ["src/components/atoms/*"],
       "~/interfaces": ["src/interfaces"],
+      "~/molecules": ["src/molecules"],
+      "~/organisms": ["src/organisms"],
       "~/themes/*": ["src/themes/*"],
       "~/types/*": ["src/types/*"]
     },

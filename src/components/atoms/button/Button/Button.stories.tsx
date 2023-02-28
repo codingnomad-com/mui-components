@@ -1,8 +1,8 @@
 import { Meta, Story } from '@storybook/react';
 import React, { ReactElement } from 'react';
 
-import { Button as ButtonComponent } from '~/atoms/button/Button/Button';
-import { ButtonProps } from '~/types';
+import { Button as ButtonComponent } from './Button';
+import { ButtonProps } from './interfaces/ButtonProps';
 
 export default {
   title: 'Atoms/Buttons/Button',

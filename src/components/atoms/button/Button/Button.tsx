@@ -1,7 +1,7 @@
 import MuiButton from '@mui/material/Button';
 import * as React from 'react';
 import { FC } from 'react';
-import { ButtonProps } from '~/interfaces';
+import { ButtonProps } from './interfaces/ButtonProps';
 
 export const Button: FC<ButtonProps> = (props) => {
   const {
