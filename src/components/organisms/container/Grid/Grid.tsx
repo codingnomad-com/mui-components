@@ -7,11 +7,9 @@ export const Grid: FC<GridProps> = (props) => {
   const { children, ...rest } = props;
 
   return (
-    <div>
-      <MuiGrid container {...rest}>
-        {children}
-      </MuiGrid>
-    </div>
+    <MuiGrid container {...rest}>
+      {children}
+    </MuiGrid>
   );
 };
 

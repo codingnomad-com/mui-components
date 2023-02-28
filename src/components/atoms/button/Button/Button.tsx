@@ -13,16 +13,14 @@ export const Button: FC<ButtonProps> = (props) => {
   } = props;
 
   return (
-    <div>
-      <MuiButton
-        color={color}
-        size={size}
-        variant={variant}
-        onClick={onClick ? (event) => onClick(event) : undefined}
-      >
-        {label}
-      </MuiButton>
-    </div>
+    <MuiButton
+      color={color}
+      size={size}
+      variant={variant}
+      onClick={onClick ? (event) => onClick(event) : undefined}
+    >
+      {label}
+    </MuiButton>
   );
 };
 

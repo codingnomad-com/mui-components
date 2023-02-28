@@ -1,8 +1,6 @@
-import { ThemeProvider } from '@mui/material/styles';
-import { useMemo } from 'react';
-
 import CssBaseline from '@mui/material/CssBaseline';
-import React from 'react';
+import { ThemeProvider } from '@mui/material/styles';
+import React, { useMemo } from 'react';
 import { themes } from '../../src/themes';
 
 export const withMuiTheme = (Story, context) => {

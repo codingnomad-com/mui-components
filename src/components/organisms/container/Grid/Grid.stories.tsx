@@ -14,15 +14,21 @@ export default {
 const GridTemplate: Story<GridProps> = (args: GridProps): ReactElement => {
   return (
     <GridComponent {...args}>
-      <GridItem>Test</GridItem>
+      <GridItem>Column 1</GridItem>
 
-      <GridItem lg={3}>Test</GridItem>
+      <GridItem lg={3} md={6}>
+        Column 2
+      </GridItem>
 
-      <GridItem>Test</GridItem>
+      <GridItem>Column 3</GridItem>
     </GridComponent>
   );
 };
 
 export const Grid = GridTemplate.bind({});
 
-Grid.args = {};
+Grid.args = {
+  columns: 12,
+  direction: 'row',
+  spacing: 2,
+};

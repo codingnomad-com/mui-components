@@ -20,6 +20,9 @@ module.exports = {
     '@storybook/addon-interactions',
     '@storybook/preset-create-react-app',
   ],
+  features: {
+    emotionAlias: false,
+  },
   typescript: {
     check: false,
     checkOptions: {},
