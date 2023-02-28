@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.48](https://github.com/codingnomad-com/mui-components/compare/v0.0.47...v0.0.48) (2023-02-28)
+
+
+### Features
+
+* **organisms:** added Grid and GridItem ([f63e060](https://github.com/codingnomad-com/mui-components/commit/f63e06054b42963792787d50552b6053f3595247))
+
 ### [0.0.47](https://github.com/codingnomad-com/mui-components/compare/v0.0.46...v0.0.47) (2023-02-28)
 
 
