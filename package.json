@@ -42,7 +42,7 @@
     "@codingnomad/eslint-config-cn": "^0.1.10",
     "@codingnomad/ts-utilities": "^0.0.13",
     "@playwright/experimental-ct-react": "^1.31.1",
-    "@playwright/test": "^1.31.0",
+    "@playwright/test": "^1.31.1",
     "@storybook/addon-actions": "^6.5.16",
     "@storybook/addon-docs": "^6.5.16",
     "@storybook/addon-essentials": "^6.5.16",

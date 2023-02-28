@@ -2629,7 +2629,7 @@
     "@vitejs/plugin-react" "^3.1.0"
     vite "^4.1.1"
 
-"@playwright/test@1.31.1", "@playwright/test@^1.31.0":
+"@playwright/test@1.31.1", "@playwright/test@^1.31.1":
   version "1.31.1"
   resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.31.1.tgz#39d6873dc46af135f12451d79707db7d1357455d"
   integrity sha512-IsytVZ+0QLDh1Hj83XatGp/GsI1CDJWbyDaBGbainsh0p2zC7F4toUocqowmjS6sQff2NGT3D9WbDj/3K2CJiA==
