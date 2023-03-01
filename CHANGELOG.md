@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.50](https://github.com/codingnomad-com/mui-components/compare/v0.0.49...v0.0.50) (2023-03-01)
+
+
+### Features
+
+* **container:** added Tabs component ([1deb4ef](https://github.com/codingnomad-com/mui-components/commit/1deb4ef6622fbbd28d147125381d8a1ebf61a909))
+
 ### [0.0.49](https://github.com/codingnomad-com/mui-components/compare/v0.0.48...v0.0.49) (2023-02-28)
 
 
