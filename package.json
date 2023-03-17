@@ -73,7 +73,7 @@
     "react-is": "18.2.0",
     "read-pkg-up": "9.1.0",
     "replace": "1.2.2",
-    "rimraf": "4.1.2",
+    "rimraf": "4.1.4",
     "standard-version": "9.5.0",
     "storybook": "6.5.16",
     "tsc-alias": "1.8.3",
