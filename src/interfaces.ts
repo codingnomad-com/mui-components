@@ -1,6 +1,7 @@
 // ################################################################################################################## //
 // COMPONENTS ####################################################################################################### //
 // ################################################################################################################## //
+
 // ------------------------------------------------------------------------------------------------------------------ //
 // atoms ------------------------------------------------------------------------------------------------------------ //
 // ------------------------------------------------------------------------------------------------------------------ //
@@ -12,3 +13,6 @@ export * from './components/atoms/button/Button/interfaces/ButtonProps';
 // container
 export * from './components/organisms/container/Grid/interfaces/GridItemProps';
 export * from './components/organisms/container/Grid/interfaces/GridProps';
+export * from './components/organisms/container/Tabs/interfaces/TabPanelProps';
+export * from './components/organisms/container/Tabs/interfaces/TabProps';
+export * from './components/organisms/container/Tabs/interfaces/TabsProps';
