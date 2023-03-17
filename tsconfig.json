@@ -6,7 +6,7 @@
     "declaration": true,
     "declarationDir": "dist",
     "forceConsistentCasingInFileNames": true,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "lib": ["es6", "dom", "es2016", "es2017"],
     "moduleResolution": "node",
     "noImplicitAny": true,
@@ -17,9 +17,9 @@
     "outDir": "dist",
     "paths": {
       "~/atoms/*": ["src/components/atoms/*"],
-      "~/interfaces": ["src/interfaces"],
-      "~/molecules": ["src/molecules"],
-      "~/organisms": ["src/organisms"],
+      "~/interfaces/*": ["src/interfaces/*"],
+      "~/molecules/*": ["src/components/molecules/*"],
+      "~/organisms/*": ["src/components/organisms/*"],
       "~/themes/*": ["src/themes/*"],
       "~/types/*": ["src/types/*"]
     },
@@ -32,6 +32,6 @@
     "target": "esnext",
     "module": "commonjs"
   },
-  "exclude": ["node_modules", "dist", "**/*.stories.*", "**/*.spec.*"],
-  "include": ["src/**/*", ".storybook"]
+  "exclude": ["node_modules", "dist"],
+  "include": ["src/**/*", ".storybook", "**/*.stories.*", "**/*.spec.*"]
 }

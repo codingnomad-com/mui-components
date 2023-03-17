@@ -1,5 +1,5 @@
 import { Meta, Story } from '@storybook/react';
-import React, { ReactElement } from 'react';
+import { ReactElement } from 'react';
 
 import { Button } from '../../../atoms/button/Button/Button';
 import { TabsProps } from './interfaces/TabsProps';
@@ -18,6 +18,7 @@ const TabsTemplate: Story<TabsProps> = (args: TabsProps): ReactElement => {
       children: (
         <>
           <Button label="Button tab 1" />
+
           <div>Test</div>
         </>
       ),
