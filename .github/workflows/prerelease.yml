@@ -1,0 +1,27 @@
+name: Prerelease
+
+on:
+  pull_request:
+    branches: [prerelease]
+
+jobs:
+  eslint:
+    name: ESLint
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+      - uses: codingnomad-com/github-workflow/.github/actions/eslint@main
+
+  typecheck:
+    name: Typecheck
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+      - uses: codingnomad-com/github-workflow/.github/actions/typecheck@main
+
+  playwright:
+    name: Playwright
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+      - uses: codingnomad-com/github-workflow/.github/actions/playwright@main

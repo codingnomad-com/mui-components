@@ -1,0 +1,37 @@
+name: Main
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  publish:
+    name: Publish
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+      - uses: codingnomad-com/github-workflow/.github/actions/publish@main
+        with:
+          npm_token: ${{ secrets.NPM_TOKEN }}
+
+  syncPrerelease:
+    name: Sync Prerelease
+    needs: ['publish']
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+      - uses: codingnomad-com/github-workflow/.github/actions/syncPrerelease@main
+        with:
+          personal_access_token: ${{ secrets.PERSONAL_ACCESS_TOKEN}}
+          github_token: ${{ secrets.GITHUB_TOKEN}}
+
+  syncRelease:
+    name: Sync Release
+    needs: ['publish']
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+      - uses: codingnomad-com/github-workflow/.github/actions/syncRelease@main
+        with:
+          personal_access_token: ${{ secrets.PERSONAL_ACCESS_TOKEN}}
+          github_token: ${{ secrets.GITHUB_TOKEN}}
