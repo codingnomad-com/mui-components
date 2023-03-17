@@ -1,5 +1,5 @@
 import { Meta, Story } from '@storybook/react';
-import React, { ReactElement } from 'react';
+import { ReactElement } from 'react';
 
 import { Button as ButtonComponent } from './Button';
 import { ButtonProps } from './interfaces/ButtonProps';
@@ -23,4 +23,5 @@ Button.args = {
   label: 'I am a button',
   size: 'medium',
   variant: 'contained',
+  // startIcon: <SvgIcon svgPath="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"></SvgIcon>,
 };

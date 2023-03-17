@@ -1,5 +1,4 @@
 import MuiGrid from '@mui/material/Grid';
-import * as React from 'react';
 import { FC } from 'react';
 import { GridProps } from './interfaces/GridProps';
 

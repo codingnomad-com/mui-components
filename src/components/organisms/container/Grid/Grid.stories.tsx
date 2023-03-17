@@ -1,5 +1,5 @@
 import { Meta, Story } from '@storybook/react';
-import React, { ReactElement } from 'react';
+import { ReactElement } from 'react';
 
 import { Grid as GridComponent } from './Grid';
 import GridItem from './GridItem';
@@ -30,5 +30,6 @@ export const Grid = GridTemplate.bind({});
 Grid.args = {
   columns: 12,
   direction: 'row',
-  spacing: 2,
+  columnSpacing: 2,
+  rowSpacing: 2,
 };

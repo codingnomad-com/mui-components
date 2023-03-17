@@ -1,5 +1,4 @@
 import { expect, test } from '@playwright/experimental-ct-react';
-import React from 'react';
 import { Grid } from './Grid';
 import { GridItem } from './GridItem';
 

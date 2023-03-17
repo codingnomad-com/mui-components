@@ -1,6 +1,5 @@
 /* eslint-disable jest/no-commented-out-tests */
 import { expect, test } from '@playwright/experimental-ct-react';
-import React from 'react';
 import { Button } from './Button';
 
 const buttonLabel = 'I am a button';
