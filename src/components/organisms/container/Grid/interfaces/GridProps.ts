@@ -8,5 +8,5 @@ type GridBaseProps = Pick<
 >;
 
 export interface GridProps extends GridBaseProps {
-  children: ReactElement<typeof GridItem>[];
+  children: ReactElement<typeof GridItem> | ReactElement<typeof GridItem>[];
 }
