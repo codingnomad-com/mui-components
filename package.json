@@ -25,7 +25,7 @@
     "ci:doc:build": "build-storybook --output-dir docs ",
     "ci:doc:deploy": "gh-pages -d docs",
     "ci:release": "standard-version",
-    "ci:build": "yarn build:es && yarn compile:ts",
+    "ci:build": "yarn ci:build:es && yarn ci:compile:ts",
     "ci:build:es": "esbuild src/index.ts --loader:.svg=file --loader:.png=file --bundle --outfile=dist/bundle.js",
     "ci:compile:ts": "tsc --build --pretty -v && tsc-alias -p tsconfig.json"
   },
