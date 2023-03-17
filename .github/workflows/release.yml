@@ -19,17 +19,17 @@ jobs:
     steps:
       - uses: codingnomad-com/github-workflow/.github/actions/typecheck@main
 
-  playwright:
-    name: Playwright
+  playwrightComponentTesting:
+    name: Playwright Component Testing
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
-      - uses: codingnomad-com/github-workflow/.github/actions/playwright@main
+      - uses: codingnomad-com/github-workflow/.github/actions/playwrightComponentTesting@main
 
   release:
     if: ${{ !contains(github.event.head_commit.message, '~sync') }}
     name: Release
-    needs: ['eslint', 'typecheck', 'playwright']
+    needs: ['eslint', 'typecheck', 'playwrightComponentTesting']
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
@@ -38,7 +38,7 @@ jobs:
   postRelease:
     if: ${{ !contains(github.event.head_commit.message, '~sync') }}
     name: Post release
-    needs: ['eslint', 'typecheck', 'playwright', 'release']
+    needs: ['eslint', 'typecheck', 'playwrightComponentTesting', 'release']
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
