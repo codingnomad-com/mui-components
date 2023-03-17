@@ -1,6 +1,5 @@
 import MuiTab from '@mui/material/Tab';
 import MuiTabs from '@mui/material/Tabs';
-import * as React from 'react';
 import { FC, SyntheticEvent, useState } from 'react';
 import { TabProps } from './interfaces/TabProps';
 import { TabsProps } from './interfaces/TabsProps';
@@ -8,6 +7,10 @@ import { TabPanel } from './TabPanel';
 
 export const Tabs: FC<TabsProps> = (props) => {
   const { tabs } = props;
+
+  if (!tabs) {
+    return null;
+  }
 
   const [value, setValue] = useState(0);
 

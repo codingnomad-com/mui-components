@@ -4,7 +4,7 @@ import { GridItem } from '../GridItem';
 
 type GridBaseProps = Pick<
   MuiGridProps,
-  'columns' | 'columnSpacing' | 'direction' | 'rowSpacing' | 'spacing'
+  'columns' | 'columnSpacing' | 'direction' | 'rowSpacing'
 >;
 
 export interface GridProps extends GridBaseProps {

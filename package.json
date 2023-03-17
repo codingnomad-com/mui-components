@@ -1,6 +1,6 @@
 {
   "name": "@codingnomad/mui-components",
-  "version": "0.0.50",
+  "version": "0.0.52",
   "description": "Material UI based component library",
   "repository": "github:codingnomad-com/mui-components",
   "author": "Manuel Bachl | Coding Nomad <manuel@coding-nomad.com> (https://coding-nomad.com)",
@@ -25,11 +25,14 @@
     "ci:doc:build": "build-storybook --output-dir docs ",
     "ci:doc:deploy": "gh-pages -d docs",
     "ci:release": "standard-version",
-    "ci:build": "rimraf dist && node esbuild.config.mjs && tsc --outDir dist"
+    "ci:build": "yarn build:es && yarn compile:ts",
+    "ci:build:es": "esbuild src/index.ts --loader:.svg=file --loader:.png=file --bundle --outfile=dist/bundle.js",
+    "ci:compile:ts": "tsc --build --pretty -v && tsc-alias -p tsconfig.json"
   },
   "dependencies": {
     "@emotion/react": "11.10.6",
     "@emotion/styled": "11.10.6",
+    "@mui/icons-material": "5.11.11",
     "@mui/material": "5.11.10",
     "moment": "2.29.1",
     "react": "18.2.0",
