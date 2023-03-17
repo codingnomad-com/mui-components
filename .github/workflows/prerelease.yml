@@ -19,9 +19,9 @@ jobs:
     steps:
       - uses: codingnomad-com/github-workflow/.github/actions/typecheck@main
 
-  playwright:
-    name: Playwright
+  playwrightComponentTesting:
+    name: Playwright Component Testing
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
-      - uses: codingnomad-com/github-workflow/.github/actions/playwright@main
+      - uses: codingnomad-com/github-workflow/.github/actions/playwrightComponentTesting@main
