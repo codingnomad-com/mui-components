@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.60 (2023-03-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @mui/material to v5.11.13 ([ccf935d](https://github.com/codingnomad-com/mui-components/commit/ccf935d76ec22a7afaf85ce936cacc107d21a430))
+
 ### 0.0.59 (2023-03-17)
 
 ### 0.0.58 (2023-03-17)
