@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.61 (2023-03-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency moment to v2.29.4 ([66f0f3f](https://github.com/codingnomad-com/mui-components/commit/66f0f3f6bcef00d123141f52b272bbce85e6dc0d))
+
 ### 0.0.60 (2023-03-17)
 
 ### 0.0.59 (2023-03-17)
