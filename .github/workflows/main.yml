@@ -16,7 +16,6 @@ jobs:
 
   storybook:
     name: Publich Storybook
-    needs: ['eslint', 'typecheck', 'playwrightComponentTesting']
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
