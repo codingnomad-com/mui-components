@@ -14,9 +14,17 @@ jobs:
         with:
           npm_token: ${{ secrets.NPM_TOKEN }}
 
+  storybook:
+    name: Publich Storybook
+    needs: ['eslint', 'typecheck', 'playwrightComponentTesting']
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+      - uses: codingnomad-com/github-workflow/.github/actions/storybook@main
+
   syncPrerelease:
     name: Sync Prerelease
-    needs: ['publish']
+    needs: ['publish', 'storybook']
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
@@ -27,7 +35,7 @@ jobs:
 
   syncRelease:
     name: Sync Release
-    needs: ['publish']
+    needs: ['publish', 'storybook']
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
