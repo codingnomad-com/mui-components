@@ -1232,10 +1232,10 @@
     jest "^29.3.1"
     prettier "^2.8.1"
 
-"@codingnomad/ts-utilities@0.0.31":
-  version "0.0.31"
-  resolved "https://registry.yarnpkg.com/@codingnomad/ts-utilities/-/ts-utilities-0.0.31.tgz#62605ba84fb390e7343a7215b47dae11462548e5"
-  integrity sha512-MLdaRAKbiBCvwOa6BbhkGM1gnXDbRqE1ZrsL67LTOgTCXDve8MRQNlCL9EIjsjmzrdAgMpjM4aiyRsW5jlcJYg==
+"@codingnomad/ts-utilities@0.0.33":
+  version "0.0.33"
+  resolved "https://registry.yarnpkg.com/@codingnomad/ts-utilities/-/ts-utilities-0.0.33.tgz#0c34d851b2b82f32fa6431f68c80e861e6ff6ab2"
+  integrity sha512-alP5rrAd80r5RouuNBmZV+fRgTAwj8+h8TV6aw0Kq1vBQRO0rzi0BAgDqSfplkNoqlv9TWP3WMaEl7A7vN+PKQ==
   dependencies:
     "@types/node" "18.15.3"
     "@types/react" "18.0.28"
@@ -1244,7 +1244,7 @@
     react "18.2.0"
     react-dom "18.2.0"
     react-scripts "5.0.1"
-    typescript "4.9.5"
+    typescript "5.0.2"
 
 "@colors/colors@1.5.0":
   version "1.5.0"
@@ -16967,6 +16967,11 @@ typescript@4.9.5, typescript@^4.6.4:
   version "4.9.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
+
+typescript@5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.0.2.tgz#891e1a90c5189d8506af64b9ef929fca99ba1ee5"
+  integrity sha512-wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw==
 
 uglify-js@^3.1.4:
   version "3.17.4"
