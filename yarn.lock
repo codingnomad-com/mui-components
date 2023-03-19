@@ -1232,10 +1232,10 @@
     jest "^29.3.1"
     prettier "^2.8.1"
 
-"@codingnomad/ts-utilities@0.0.33":
-  version "0.0.33"
-  resolved "https://registry.yarnpkg.com/@codingnomad/ts-utilities/-/ts-utilities-0.0.33.tgz#0c34d851b2b82f32fa6431f68c80e861e6ff6ab2"
-  integrity sha512-alP5rrAd80r5RouuNBmZV+fRgTAwj8+h8TV6aw0Kq1vBQRO0rzi0BAgDqSfplkNoqlv9TWP3WMaEl7A7vN+PKQ==
+"@codingnomad/ts-utilities@0.0.34":
+  version "0.0.34"
+  resolved "https://registry.yarnpkg.com/@codingnomad/ts-utilities/-/ts-utilities-0.0.34.tgz#38d0bbb80e98bd950e9ca64edc6636115df77337"
+  integrity sha512-yUByCQZ8TuSm+WFoIe9Q1vO0YMsEQriKiTfwRN83k6tv0Ri3SEJO+fJ5GIy2jZsv+L0PNpUfbGQ0aB5v6mcXDA==
   dependencies:
     "@types/node" "18.15.3"
     "@types/react" "18.0.28"
