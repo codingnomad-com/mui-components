@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@codingnomad/eslint-config-cn": "0.1.13",
-    "@codingnomad/ts-utilities": "0.0.33",
+    "@codingnomad/ts-utilities": "0.0.34",
     "@playwright/experimental-ct-react": "1.31.2",
     "@playwright/test": "1.31.2",
     "@storybook/addon-actions": "6.5.16",
