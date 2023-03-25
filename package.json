@@ -42,8 +42,8 @@
   "devDependencies": {
     "@codingnomad/eslint-config-cn": "0.1.13",
     "@codingnomad/ts-utilities": "0.0.34",
-    "@playwright/experimental-ct-react": "1.32.0",
-    "@playwright/test": "1.32.0",
+    "@playwright/experimental-ct-react": "1.32.1",
+    "@playwright/test": "1.32.1",
     "@storybook/addon-actions": "6.5.16",
     "@storybook/addon-docs": "6.5.16",
     "@storybook/addon-essentials": "6.5.16",
