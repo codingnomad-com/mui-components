@@ -2654,22 +2654,22 @@
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
 
-"@playwright/experimental-ct-react@1.32.2":
-  version "1.32.2"
-  resolved "https://registry.yarnpkg.com/@playwright/experimental-ct-react/-/experimental-ct-react-1.32.2.tgz#bf7115418427fa355721148490a1fba6324b1e83"
-  integrity sha512-r68hK2W1JOfhXLF+x65qWYvAvPcNP0Ek3llPei2+1aZZ1Ebu+ZrVttR/OCVkCp1pFg5OeLx+oTeHMfnAOBVQAA==
+"@playwright/experimental-ct-react@1.32.3":
+  version "1.32.3"
+  resolved "https://registry.yarnpkg.com/@playwright/experimental-ct-react/-/experimental-ct-react-1.32.3.tgz#167c147d4a425a8adc8160471027a75fbbc92ab6"
+  integrity sha512-sLFbMAIXiyWcgK9g6Nfe9FhOyxNKoBVrV6ES6bv6OyjzT33m0Coi1PN3fyCFjQaZUaiup/UyLS6dbSLTX7bHwA==
   dependencies:
-    "@playwright/test" "1.32.2"
+    "@playwright/test" "1.32.3"
     "@vitejs/plugin-react" "^3.1.0"
     vite "^4.1.1"
 
-"@playwright/test@1.32.2":
-  version "1.32.2"
-  resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.32.2.tgz#3cbd76b3f94d0f7f50bf054dbd02e504e85e3865"
-  integrity sha512-nhaTSDpEdTTttdkDE8Z6K3icuG1DVRxrl98Qq0Lfc63SS9a2sjc9+x8ezysh7MzCKz6Y+nArml3/mmt+gqRmQQ==
+"@playwright/test@1.32.3":
+  version "1.32.3"
+  resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.32.3.tgz#75be8346d4ef289896835e1d2a86fdbe3d9be92a"
+  integrity sha512-BvWNvK0RfBriindxhLVabi8BRe3X0J9EVjKlcmhxjg4giWBD/xleLcg2dz7Tx0agu28rczjNIPQWznwzDwVsZQ==
   dependencies:
     "@types/node" "*"
-    playwright-core "1.32.2"
+    playwright-core "1.32.3"
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -13650,10 +13650,10 @@ pkg-up@^3.1.0:
   dependencies:
     find-up "^3.0.0"
 
-playwright-core@1.32.2:
-  version "1.32.2"
-  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.32.2.tgz#608810c3c4486fb86a224732ac0d3560a96ded8b"
-  integrity sha512-zD7aonO+07kOTthsrCR3YCVnDcqSHIJpdFUtZEMOb6//1Rc7/6mZDRdw+nlzcQiQltOOsiqI3rrSyn/SlyjnJQ==
+playwright-core@1.32.3:
+  version "1.32.3"
+  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.32.3.tgz#e6dc7db0b49e9b6c0b8073c4a2d789a96f519c48"
+  integrity sha512-SB+cdrnu74ZIn5Ogh/8278ngEh9NEEV0vR4sJFmK04h2iZpybfbqBY0bX6+BLYWVdV12JLLI+JEFtSnYgR+mWg==
 
 plimit-lit@^1.2.6:
   version "1.5.0"
