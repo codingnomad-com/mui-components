@@ -62,7 +62,7 @@
     "commitizen": "4.3.0",
     "concurrently": "7.6.0",
     "cross-spawn": "7.0.3",
-    "esbuild": "0.18.2",
+    "esbuild": "0.18.11",
     "eslint": "8.42.0",
     "eslint-plugin-storybook": "0.6.11",
     "gh-pages": "5.0.0",
