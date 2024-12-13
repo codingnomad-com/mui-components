@@ -30,8 +30,8 @@
     "ci:compile:ts": "tsc --build --pretty -v && tsc-alias -p tsconfig.json"
   },
   "dependencies": {
-    "@emotion/react": "11.13.5",
-    "@emotion/styled": "11.13.5",
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.0",
     "@mui/icons-material": "5.16.11",
     "@mui/material": "5.16.11",
     "moment": "2.30.1",
