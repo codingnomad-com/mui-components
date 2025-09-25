@@ -71,7 +71,7 @@
     "prettier": "2.8.7",
     "prop-types": "15.8.1",
     "react-is": "18.3.1",
-    "read-pkg-up": "9.1.0",
+    "read-package-up": "11.0.0",
     "replace": "1.2.2",
     "rimraf": "4.4.1",
     "standard-version": "9.5.0",
