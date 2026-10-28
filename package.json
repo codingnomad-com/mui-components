@@ -74,7 +74,7 @@
     "read-pkg-up": "9.1.0",
     "replace": "1.2.2",
     "rimraf": "4.4.1",
-    "standard-version": "9.5.0",
+    "commit-and-tag-version": "9.5.0",
     "storybook": "6.5.16",
     "tsc-alias": "1.8.17",
     "tsconfig-paths-webpack-plugin": "4.2.0",
